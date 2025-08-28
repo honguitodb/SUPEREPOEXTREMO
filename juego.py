@@ -1,7 +1,30 @@
 import random 
 
 def game(a, b):
-    pass
+    if a == b:
+        return 0
+    elif a == "1" and b == "2":
+        return 1
+    elif a == "2" and b == "1":
+        return 2
+    #elif 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

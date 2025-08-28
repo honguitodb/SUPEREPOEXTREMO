@@ -19,10 +19,12 @@ print("[5] spock \n")
 
 
 jugar = True
-
+jueguito = []
 while(jugar):
     jugador_1 = int(input("Jugador 1:"))
     jugador_2 = int(input("Jugador 2:"))
-    game(jugador_1, jugador_2)
+    ganador = game(jugador_1, jugador_2)
+    print(jueguito[ganador])
+
 
     

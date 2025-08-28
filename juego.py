@@ -32,3 +32,4 @@ while (jugar):
         print("Gano jugador 2")
     else:
         print("Empate")
+jueguito = []

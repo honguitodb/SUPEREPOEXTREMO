@@ -18,11 +18,9 @@ print("[5] spock \n")
 
 
 
-
-
 jugar = True
+
 while(jugar):
-    jugador_1 = input("Jugador 1:")
-    a = 1
-    b = 2
+    jugador_1 = int(input("Jugador 1:"))
+    jugador_2 = int(input("Jugador 2:"))
     game(a, b)

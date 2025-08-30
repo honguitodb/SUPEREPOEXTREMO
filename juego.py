@@ -26,12 +26,6 @@ def game(a, b):
         return 2
 
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 76810363d521db1b9fa664de038b2ae5cbc1cdcf
 print("Bienvenido a DCCorta")
 
 

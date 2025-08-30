@@ -4,7 +4,7 @@ import random  # Texto random
 def game(a, b):
     if a == b:
         print("empate!")
-        return 0
+        return int(0)
 
     elif a == "1" and b == "2":
         print("papel le gana a piedra")
@@ -40,9 +40,8 @@ print("[5] spock \n")
 jugar = True
 games = [0, 0, 0]
 while (jugar):
-    jugador_1 = input("Jugador 1:")
-    a = 1
-    b = random.randint(1, 3)
+    a = input("Jugador 1:")
+    b = str(random.randint(1, 3))
     ganador = game(a, b)
     games[ganador] += 1
 

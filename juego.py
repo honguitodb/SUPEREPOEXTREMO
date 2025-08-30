@@ -26,7 +26,7 @@ def game(a, b):
         return 2
 
 
-print("Bienvenido a DCCorta")
+print("\n Bienvenido a DCCachipun")
 
 
 print("-" * 26 + " MENU " + "-"*26)

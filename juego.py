@@ -1,4 +1,4 @@
-import random
+import random  # Texto random
 
 
 def game(a, b):
@@ -23,9 +23,12 @@ def game(a, b):
         return 2
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 76810363d521db1b9fa664de038b2ae5cbc1cdcf
 print("Bienvenido a DCCorta")
 
 
@@ -38,13 +41,13 @@ print("[5] spock \n")
 
 
 jugar = True
-games = [0,0,0]
-while(jugar):
+games = [0, 0, 0]
+while (jugar):
     jugador_1 = input("Jugador 1:")
     a = 1
     b = random.randint(1, 5)
     ganador = game(a, b)
-    games[ganador]+=1
+    games[ganador] += 1
 
 
 

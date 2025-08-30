@@ -26,17 +26,6 @@ def game(a, b):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 print("Bienvenido a DCCorta")
 
 
@@ -74,7 +63,7 @@ while(jugar):
 
 
     if games[1] < games [2]:
-        print(f"has ganado")
+        print(f"has ganado {games[1]}:{games[2]}")
 
     elif games[1] > games [2]:
-        print(f"ha ganado la computadora")
+        print(f"ha ganado la computadora {games[1]}:{games[2]}")

@@ -22,7 +22,16 @@ def game(a, b):
         print("piedra le gana a tijeras")
         return 2
     elif a == "3" and b == "4":
-        print("piedra le gana a tijeras")
+        print("tijera corta la lagartija a la mitad")
+        return 1
+    elif a == "3" and b == "5":
+        print("spock destroza las tijeras")
+        return 2
+    elif a == "4" and b == "5":
+        print("lagartija envenena a spock")
+        return 1
+    elif a == "4" and b == "2":
+        print("la piedra aplasta a la lagartija")
         return 2
 
 
@@ -41,7 +50,7 @@ jugar = True
 games = [0, 0, 0]
 while (jugar):
     a = input("Jugador 1:")
-    b = str(random.randint(1, 3))
+    b = str(random.randint(1, 4))
     ganador = game(a, b)
     games[ganador] += 1
 

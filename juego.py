@@ -9,6 +9,9 @@ def game(a, b):
     elif a == "1" and b == "2":
         print("papel le gana a piedra")
         return 1
+    elif a == "1" and b == "3":
+        print("tijera le gana  a papel")
+        return 2
     elif a == "2" and b == "1":
         print("papel le gana a piedra")
         return 2
@@ -53,7 +56,7 @@ games = [0,0,0]
 while(jugar):
     jugador_1 = input("Jugador 1:")
     a = 1
-    b = random.randint(1, 5)
+    b = random.randint(1, 3)
     ganador = game(a, b)
     games[ganador]+=1
 

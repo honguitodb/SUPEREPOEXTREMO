@@ -1,4 +1,5 @@
-import random 
+import random
+
 
 def game(a, b):
     if a == b:
@@ -31,9 +32,6 @@ print("[2] Piedra")
 print("[3] Tijeras")
 print("[4] Lagartija")
 print("[5] spock \n")
-
-
-
 
 
 jugar = True

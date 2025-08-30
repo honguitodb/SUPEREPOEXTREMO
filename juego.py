@@ -45,24 +45,8 @@ while (jugar):
     ganador = game(a, b)
     games[ganador] += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if games[1] < games [2]:
+    if games[1] < games[2]:
         print(f"has ganado {games[1]}:{games[2]}")
 
-    elif games[1] > games [2]:
+    elif games[1] > games[2]:
         print(f"ha ganado la computadora {games[1]}:{games[2]}")

@@ -23,12 +23,6 @@ def game(a, b):
         return 2
 
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 76810363d521db1b9fa664de038b2ae5cbc1cdcf
 print("Bienvenido a DCCorta")
 
 
@@ -49,24 +43,8 @@ while (jugar):
     ganador = game(a, b)
     games[ganador] += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if games[1] < games [2]:
+    if games[1] < games[2]:
         print(f"has ganado {games[1]}:{games[2]}")
 
-    elif games[1] > games [2]:
+    elif games[1] > games[2]:
         print(f"ha ganado la computadora {games[1]}:{games[2]}")

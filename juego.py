@@ -23,6 +23,20 @@ def game(a, b):
         return 2
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print("Bienvenido a DCCorta")
 
 
@@ -59,6 +73,8 @@ while(jugar):
 
 
 
+    if games[1] < games [2]:
+        print(f"has ganado")
 
-    if games[1] > games [2]:
+    elif games[1] > games [2]:
         print(f"ha ganado la computadora")

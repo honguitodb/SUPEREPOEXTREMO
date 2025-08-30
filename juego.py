@@ -35,9 +35,30 @@ print("[5] spock \n")
 
 
 jugar = True
+games = [0,0,0]
 while(jugar):
     jugador_1 = input("Jugador 1:")
     a = 1
     b = random.randint(1, 5)
     ganador = game(a, b)
-    print(f"ha ganado el jugador {ganador}")
+    games[ganador]+=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if games[1] > games [2]:
+        print(f"ha ganado la computadora")

@@ -2,31 +2,24 @@ import random
 
 def game(a, b):
     if a == b:
+        print("empate!")
         return 0
+
     elif a == "1" and b == "2":
+        print("papel le gana a piedra")
         return 1
     elif a == "2" and b == "1":
+        print("papel le gana a piedra")
         return 2
-    #elif 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    elif a == "2" and b == "3":
+        print("piedra le gana a tijeras")
+        return 1
+    elif a == "3" and b == "2":
+        print("piedra le gana a tijeras")
+        return 2
+    elif a == "3" and b == "4":
+        print("piedra le gana a tijeras")
+        return 2
 
 
 print("Bienvenido a DCCorta")
@@ -47,5 +40,6 @@ jugar = True
 while(jugar):
     jugador_1 = input("Jugador 1:")
     a = 1
-    b = 2
-    game(a, b)
+    b = random.randint(1, 5)
+    ganador = game(a, b)
+    print(f"ha ganado el jugador {ganador}")
